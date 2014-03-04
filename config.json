@@ -1,0 +1,10 @@
+{"manifest": {
+    "usedSchemaVersion": 1,
+    "widget": {
+        "description": "Vimorize",
+        "properties": "",
+        "rootfile": "index.html",
+        "widgetVersion": 1
+    },
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}}
