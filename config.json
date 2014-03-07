@@ -4,7 +4,7 @@
         "description": "Vimorize",
         "properties": "",
         "rootfile": "index.html",
-        "widgetVersion": 1
+        "widgetVersion": 1.3
     },
     "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
 }}
