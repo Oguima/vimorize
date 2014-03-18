@@ -73,7 +73,7 @@ div {
 .btn.active .face {
   background-position: bottom left; }
 
-.ico:after {
+.ico:before {
   content: '';
   position: relative;
   display: block;
@@ -437,6 +437,16 @@ a {
   text-decoration: none; }
 
 #interativo {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+#fundo {
   background: url(../images/background.jpg);
   background-size: cover;
   max-width: 100%;
@@ -447,6 +457,12 @@ a {
   right: 0;
   bottom: 0;
   left: 0; }
+
+.final1 {
+  background: url(../images/background.jpg); }
+
+.final2 {
+  background: url(../images/final02.jpg); }
 
 #logo {
   position: absolute;
@@ -1473,3 +1489,10 @@ a {
     -o-transform: translateX(0);
     -khtml-transform: translateX(0);
     transform: translateX(0); } }
+
+.blur {
+  -webkit-filter: blur(25px);
+  -moz-filter: blur(25px);
+  -o-filter: blur(25px);
+  -ms-filter: blur(25px);
+  filter: blur(25px); }
