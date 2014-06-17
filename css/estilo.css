@@ -73,40 +73,6 @@ div {
 .btn.active .face {
   background-position: bottom left; }
 
-.ico:before {
-  content: '';
-  position: relative;
-  display: block;
-  background-color: #d33535;
-  background-image: url(../images/interativo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 4px;
-  top: -4px;
-  left: -4px;
-  color: white;
-  font-size: 16px;
-  width: 36px;
-  height: 36px; }
-
-/*
-.ico:after
-{
-  background-image: url(../images/interativo.svg);
-}
-*/
-.ico {
-  background-color: rgba(153, 153, 153, 0.4);
-  border: none;
-  border-radius: 4px;
-  display: block;
-  margin: 5px;
-  position: relative;
-  z-index: 1;
-  width: 36px;
-  height: 36px; }
-
 .alert {
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -226,26 +192,22 @@ direction
   -moz-animation-name: animacao;
   -ms-animation-name: animacao;
   -o-animation-name: animacao;
-  -khtml-animation-name: animacao;
   animation-name: animacao;
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   -ms-animation-duration: 0.5s;
   -o-animation-duration: 0.5s;
-  -khtml-animation-duration: 0.5s;
   animation-duration: 0.5s;
   /*@include animation('direction', alternate);*/
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
   -ms-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
-  -khtml-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -ms-animation-timing-function: linear;
   -o-animation-timing-function: linear;
-  -khtml-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 /*@keyframes animacao*/
@@ -255,13 +217,11 @@ direction
     -moz-opacity: 0;
     -ms-opacity: 0;
     -o-opacity: 0;
-    -khtml-opacity: 0;
     opacity: 0;
     -webkit-transform: scale(1.2, 1.2, 0, 1);
     -moz-transform: scale(1.2, 1.2, 0, 1);
     -ms-transform: scale(1.2, 1.2, 0, 1);
     -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
     transform: scale(1.2, 1.2, 0, 1); }
 
   /*20%{@include opacity(1); }*/
@@ -270,13 +230,11 @@ direction
     -moz-opacity: 1;
     -ms-opacity: 1;
     -o-opacity: 1;
-    -khtml-opacity: 1;
     opacity: 1;
     -webkit-transform: scale(1, 1, 0, 1);
     -moz-transform: scale(1, 1, 0, 1);
     -ms-transform: scale(1, 1, 0, 1);
     -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
     transform: scale(1, 1, 0, 1); } }
 
 @-moz-keyframes animacao {
@@ -285,13 +243,11 @@ direction
     -moz-opacity: 0;
     -ms-opacity: 0;
     -o-opacity: 0;
-    -khtml-opacity: 0;
     opacity: 0;
     -webkit-transform: scale(1.2, 1.2, 0, 1);
     -moz-transform: scale(1.2, 1.2, 0, 1);
     -ms-transform: scale(1.2, 1.2, 0, 1);
     -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
     transform: scale(1.2, 1.2, 0, 1); }
 
   /*20%{@include opacity(1); }*/
@@ -300,13 +256,11 @@ direction
     -moz-opacity: 1;
     -ms-opacity: 1;
     -o-opacity: 1;
-    -khtml-opacity: 1;
     opacity: 1;
     -webkit-transform: scale(1, 1, 0, 1);
     -moz-transform: scale(1, 1, 0, 1);
     -ms-transform: scale(1, 1, 0, 1);
     -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
     transform: scale(1, 1, 0, 1); } }
 
 @-o-keyframes animacao {
@@ -315,13 +269,11 @@ direction
     -moz-opacity: 0;
     -ms-opacity: 0;
     -o-opacity: 0;
-    -khtml-opacity: 0;
     opacity: 0;
     -webkit-transform: scale(1.2, 1.2, 0, 1);
     -moz-transform: scale(1.2, 1.2, 0, 1);
     -ms-transform: scale(1.2, 1.2, 0, 1);
     -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
     transform: scale(1.2, 1.2, 0, 1); }
 
   /*20%{@include opacity(1); }*/
@@ -330,73 +282,11 @@ direction
     -moz-opacity: 1;
     -ms-opacity: 1;
     -o-opacity: 1;
-    -khtml-opacity: 1;
     opacity: 1;
     -webkit-transform: scale(1, 1, 0, 1);
     -moz-transform: scale(1, 1, 0, 1);
     -ms-transform: scale(1, 1, 0, 1);
     -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
-    transform: scale(1, 1, 0, 1); } }
-
-@-ms-keyframes animacao {
-  from {
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    -ms-opacity: 0;
-    -o-opacity: 0;
-    -khtml-opacity: 0;
-    opacity: 0;
-    -webkit-transform: scale(1.2, 1.2, 0, 1);
-    -moz-transform: scale(1.2, 1.2, 0, 1);
-    -ms-transform: scale(1.2, 1.2, 0, 1);
-    -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
-    transform: scale(1.2, 1.2, 0, 1); }
-
-  /*20%{@include opacity(1); }*/
-  to {
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    -ms-opacity: 1;
-    -o-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    -webkit-transform: scale(1, 1, 0, 1);
-    -moz-transform: scale(1, 1, 0, 1);
-    -ms-transform: scale(1, 1, 0, 1);
-    -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
-    transform: scale(1, 1, 0, 1); } }
-
-@-khtml-keyframes animacao {
-  from {
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    -ms-opacity: 0;
-    -o-opacity: 0;
-    -khtml-opacity: 0;
-    opacity: 0;
-    -webkit-transform: scale(1.2, 1.2, 0, 1);
-    -moz-transform: scale(1.2, 1.2, 0, 1);
-    -ms-transform: scale(1.2, 1.2, 0, 1);
-    -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
-    transform: scale(1.2, 1.2, 0, 1); }
-
-  /*20%{@include opacity(1); }*/
-  to {
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    -ms-opacity: 1;
-    -o-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    -webkit-transform: scale(1, 1, 0, 1);
-    -moz-transform: scale(1, 1, 0, 1);
-    -ms-transform: scale(1, 1, 0, 1);
-    -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
     transform: scale(1, 1, 0, 1); } }
 
 @keyframes animacao {
@@ -405,13 +295,11 @@ direction
     -moz-opacity: 0;
     -ms-opacity: 0;
     -o-opacity: 0;
-    -khtml-opacity: 0;
     opacity: 0;
     -webkit-transform: scale(1.2, 1.2, 0, 1);
     -moz-transform: scale(1.2, 1.2, 0, 1);
     -ms-transform: scale(1.2, 1.2, 0, 1);
     -o-transform: scale(1.2, 1.2, 0, 1);
-    -khtml-transform: scale(1.2, 1.2, 0, 1);
     transform: scale(1.2, 1.2, 0, 1); }
 
   /*20%{@include opacity(1); }*/
@@ -420,13 +308,11 @@ direction
     -moz-opacity: 1;
     -ms-opacity: 1;
     -o-opacity: 1;
-    -khtml-opacity: 1;
     opacity: 1;
     -webkit-transform: scale(1, 1, 0, 1);
     -moz-transform: scale(1, 1, 0, 1);
     -ms-transform: scale(1, 1, 0, 1);
     -o-transform: scale(1, 1, 0, 1);
-    -khtml-transform: scale(1, 1, 0, 1);
     transform: scale(1, 1, 0, 1); } }
 
 div {
@@ -558,11 +444,11 @@ a {
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -o-transition: -o-transform 0.5s linear;
-  -ms-transition: -ms-transform 0.5s linear;
-  -moz-transition: -moz-transform 0.5s linear;
-  -webkit-transition: -webkit-transform 0.5s linear;
-  transition: transform 0.5s linear; }
+  -o-transition: -o-transform 0.3s linear;
+  -ms-transition: -ms-transform 0.3s linear;
+  -moz-transition: -moz-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear; }
 
 .card .face {
   background-color: white;
@@ -656,26 +542,22 @@ a {
   -moz-animation-name: animaFlip;
   -ms-animation-name: animaFlip;
   -o-animation-name: animaFlip;
-  -khtml-animation-name: animaFlip;
   animation-name: animaFlip;
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   -ms-animation-duration: 0.5s;
   -o-animation-duration: 0.5s;
-  -khtml-animation-duration: 0.5s;
   animation-duration: 0.5s;
   /*@include animation('direction', alternate);*/
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
   -ms-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
-  -khtml-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -ms-animation-timing-function: linear;
   -o-animation-timing-function: linear;
-  -khtml-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 .animated {
@@ -687,13 +569,11 @@ a {
   -moz-animation-duration: 1s;
   -ms-animation-duration: 1s;
   -o-animation-duration: 1s;
-  -khtml-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
   -o-animation-fill-mode: both;
-  -khtml-animation-fill-mode: both;
   animation-fill-mode: both; }
 
 .shake {
@@ -701,7 +581,6 @@ a {
   -moz-animation-name: shake;
   -ms-animation-name: shake;
   -o-animation-name: shake;
-  -khtml-animation-name: shake;
   animation-name: shake; }
 
 @-webkit-keyframes shake {
@@ -710,7 +589,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); }
 
   10%, 30%, 50%, 70%, 90% {
@@ -718,7 +596,6 @@ a {
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
     transform: translateX(-10px); }
 
   20%, 40%, 60%, 80% {
@@ -726,7 +603,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); } }
 
 @-moz-keyframes shake {
@@ -735,7 +611,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); }
 
   10%, 30%, 50%, 70%, 90% {
@@ -743,7 +618,6 @@ a {
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
     transform: translateX(-10px); }
 
   20%, 40%, 60%, 80% {
@@ -751,7 +625,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); } }
 
 @-o-keyframes shake {
@@ -760,7 +633,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); }
 
   10%, 30%, 50%, 70%, 90% {
@@ -768,7 +640,6 @@ a {
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
     transform: translateX(-10px); }
 
   20%, 40%, 60%, 80% {
@@ -776,57 +647,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
-    transform: translateX(10px); } }
-
-@-ms-keyframes shake {
-  0%, 100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
-    transform: translateX(0); }
-
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translateX(-10px);
-    -moz-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
-    -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
-    transform: translateX(-10px); }
-
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
-    transform: translateX(10px); } }
-
-@-khtml-keyframes shake {
-  0%, 100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
-    transform: translateX(0); }
-
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translateX(-10px);
-    -moz-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
-    -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
-    transform: translateX(-10px); }
-
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); } }
 
 @keyframes shake {
@@ -835,7 +655,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); }
 
   10%, 30%, 50%, 70%, 90% {
@@ -843,7 +662,6 @@ a {
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-    -khtml-transform: translateX(-10px);
     transform: translateX(-10px); }
 
   20%, 40%, 60%, 80% {
@@ -851,7 +669,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); } }
 
 .pulse {
@@ -859,7 +676,6 @@ a {
   -moz-animation-name: pulse;
   -ms-animation-name: pulse;
   -o-animation-name: pulse;
-  -khtml-animation-name: pulse;
   animation-name: pulse; }
 
 @-webkit-keyframes pulse {
@@ -868,7 +684,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   50% {
@@ -876,7 +691,6 @@ a {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
     transform: scale(1.1); }
 
   100% {
@@ -884,7 +698,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); } }
 
 @-moz-keyframes pulse {
@@ -893,7 +706,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   50% {
@@ -901,7 +713,6 @@ a {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
     transform: scale(1.1); }
 
   100% {
@@ -909,7 +720,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); } }
 
 @-o-keyframes pulse {
@@ -918,7 +728,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   50% {
@@ -926,7 +735,6 @@ a {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
     transform: scale(1.1); }
 
   100% {
@@ -934,57 +742,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); } }
-
-@-ms-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); }
-
-  50% {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
-    transform: scale(1.1); }
-
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); } }
-
-@-khtml-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); }
-
-  50% {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
-    transform: scale(1.1); }
-
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes pulse {
@@ -993,7 +750,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   50% {
@@ -1001,7 +757,6 @@ a {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    -khtml-transform: scale(1.1);
     transform: scale(1.1); }
 
   100% {
@@ -1009,7 +764,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); } }
 
 .tada {
@@ -1017,7 +771,6 @@ a {
   -moz-animation-name: tada;
   -ms-animation-name: tada;
   -o-animation-name: tada;
-  -khtml-animation-name: tada;
   animation-name: tada; }
 
 @-webkit-keyframes tada {
@@ -1026,7 +779,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   10%, 20% {
@@ -1034,7 +786,6 @@ a {
     -moz-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg); }
 
   30%, 50%, 70%, 90% {
@@ -1042,7 +793,6 @@ a {
     -moz-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg); }
 
   40%, 60%, 80% {
@@ -1050,7 +800,6 @@ a {
     -moz-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg); }
 
   100% {
@@ -1058,7 +807,6 @@ a {
     -moz-transform: scale(1.1) rotate(0);
     -ms-transform: scale(1.1) rotate(0);
     -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
     transform: scale(1.1) rotate(0); } }
 
 @-moz-keyframes tada {
@@ -1067,7 +815,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   10%, 20% {
@@ -1075,7 +822,6 @@ a {
     -moz-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg); }
 
   30%, 50%, 70%, 90% {
@@ -1083,7 +829,6 @@ a {
     -moz-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg); }
 
   40%, 60%, 80% {
@@ -1091,7 +836,6 @@ a {
     -moz-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg); }
 
   100% {
@@ -1099,7 +843,6 @@ a {
     -moz-transform: scale(1.1) rotate(0);
     -ms-transform: scale(1.1) rotate(0);
     -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
     transform: scale(1.1) rotate(0); } }
 
 @-o-keyframes tada {
@@ -1108,7 +851,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   10%, 20% {
@@ -1116,7 +858,6 @@ a {
     -moz-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg); }
 
   30%, 50%, 70%, 90% {
@@ -1124,7 +865,6 @@ a {
     -moz-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg); }
 
   40%, 60%, 80% {
@@ -1132,7 +872,6 @@ a {
     -moz-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg); }
 
   100% {
@@ -1140,89 +879,6 @@ a {
     -moz-transform: scale(1.1) rotate(0);
     -ms-transform: scale(1.1) rotate(0);
     -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
-    transform: scale(1.1) rotate(0); } }
-
-@-ms-keyframes tada {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); }
-
-  10%, 20% {
-    -webkit-transform: scale(0.9) rotate(-3deg);
-    -moz-transform: scale(0.9) rotate(-3deg);
-    -ms-transform: scale(0.9) rotate(-3deg);
-    -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
-    transform: scale(0.9) rotate(-3deg); }
-
-  30%, 50%, 70%, 90% {
-    -webkit-transform: scale(1.1) rotate(3deg);
-    -moz-transform: scale(1.1) rotate(3deg);
-    -ms-transform: scale(1.1) rotate(3deg);
-    -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
-    transform: scale(1.1) rotate(3deg); }
-
-  40%, 60%, 80% {
-    -webkit-transform: scale(1.1) rotate(-3deg);
-    -moz-transform: scale(1.1) rotate(-3deg);
-    -ms-transform: scale(1.1) rotate(-3deg);
-    -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
-    transform: scale(1.1) rotate(-3deg); }
-
-  100% {
-    -webkit-transform: scale(1.1) rotate(0);
-    -moz-transform: scale(1.1) rotate(0);
-    -ms-transform: scale(1.1) rotate(0);
-    -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
-    transform: scale(1.1) rotate(0); } }
-
-@-khtml-keyframes tada {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -khtml-transform: scale(1);
-    transform: scale(1); }
-
-  10%, 20% {
-    -webkit-transform: scale(0.9) rotate(-3deg);
-    -moz-transform: scale(0.9) rotate(-3deg);
-    -ms-transform: scale(0.9) rotate(-3deg);
-    -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
-    transform: scale(0.9) rotate(-3deg); }
-
-  30%, 50%, 70%, 90% {
-    -webkit-transform: scale(1.1) rotate(3deg);
-    -moz-transform: scale(1.1) rotate(3deg);
-    -ms-transform: scale(1.1) rotate(3deg);
-    -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
-    transform: scale(1.1) rotate(3deg); }
-
-  40%, 60%, 80% {
-    -webkit-transform: scale(1.1) rotate(-3deg);
-    -moz-transform: scale(1.1) rotate(-3deg);
-    -ms-transform: scale(1.1) rotate(-3deg);
-    -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
-    transform: scale(1.1) rotate(-3deg); }
-
-  100% {
-    -webkit-transform: scale(1.1) rotate(0);
-    -moz-transform: scale(1.1) rotate(0);
-    -ms-transform: scale(1.1) rotate(0);
-    -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
     transform: scale(1.1) rotate(0); } }
 
 @keyframes tada {
@@ -1231,7 +887,6 @@ a {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    -khtml-transform: scale(1);
     transform: scale(1); }
 
   10%, 20% {
@@ -1239,7 +894,6 @@ a {
     -moz-transform: scale(0.9) rotate(-3deg);
     -ms-transform: scale(0.9) rotate(-3deg);
     -o-transform: scale(0.9) rotate(-3deg);
-    -khtml-transform: scale(0.9) rotate(-3deg);
     transform: scale(0.9) rotate(-3deg); }
 
   30%, 50%, 70%, 90% {
@@ -1247,7 +901,6 @@ a {
     -moz-transform: scale(1.1) rotate(3deg);
     -ms-transform: scale(1.1) rotate(3deg);
     -o-transform: scale(1.1) rotate(3deg);
-    -khtml-transform: scale(1.1) rotate(3deg);
     transform: scale(1.1) rotate(3deg); }
 
   40%, 60%, 80% {
@@ -1255,7 +908,6 @@ a {
     -moz-transform: scale(1.1) rotate(-3deg);
     -ms-transform: scale(1.1) rotate(-3deg);
     -o-transform: scale(1.1) rotate(-3deg);
-    -khtml-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg); }
 
   100% {
@@ -1263,7 +915,6 @@ a {
     -moz-transform: scale(1.1) rotate(0);
     -ms-transform: scale(1.1) rotate(0);
     -o-transform: scale(1.1) rotate(0);
-    -khtml-transform: scale(1.1) rotate(0);
     transform: scale(1.1) rotate(0); } }
 
 .bounceInRight {
@@ -1271,13 +922,11 @@ a {
   -moz-animation-name: bounceInRight;
   -ms-animation-name: bounceInRight;
   -o-animation-name: bounceInRight;
-  -khtml-animation-name: bounceInRight;
   animation-name: bounceInRight;
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -ms-animation-delay: 4s;
   -o-animation-delay: 4s;
-  -khtml-animation-delay: 4s;
   animation-delay: 4s; }
 
 @-webkit-keyframes bounceInRight {
@@ -1287,7 +936,6 @@ a {
     -moz-transform: translateX(2000px);
     -ms-transform: translateX(2000px);
     -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
     transform: translateX(2000px); }
 
   60% {
@@ -1296,7 +944,6 @@ a {
     -moz-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
     -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
     transform: translateX(-30px); }
 
   80% {
@@ -1304,7 +951,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); }
 
   100% {
@@ -1312,7 +958,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); } }
 
 @-moz-keyframes bounceInRight {
@@ -1322,7 +967,6 @@ a {
     -moz-transform: translateX(2000px);
     -ms-transform: translateX(2000px);
     -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
     transform: translateX(2000px); }
 
   60% {
@@ -1331,7 +975,6 @@ a {
     -moz-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
     -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
     transform: translateX(-30px); }
 
   80% {
@@ -1339,7 +982,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); }
 
   100% {
@@ -1347,7 +989,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); } }
 
 @-o-keyframes bounceInRight {
@@ -1357,7 +998,6 @@ a {
     -moz-transform: translateX(2000px);
     -ms-transform: translateX(2000px);
     -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
     transform: translateX(2000px); }
 
   60% {
@@ -1366,7 +1006,6 @@ a {
     -moz-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
     -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
     transform: translateX(-30px); }
 
   80% {
@@ -1374,7 +1013,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); }
 
   100% {
@@ -1382,77 +1020,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
-    transform: translateX(0); } }
-
-@-ms-keyframes bounceInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(2000px);
-    -moz-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
-    transform: translateX(2000px); }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-30px);
-    -moz-transform: translateX(-30px);
-    -ms-transform: translateX(-30px);
-    -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
-    transform: translateX(-30px); }
-
-  80% {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
-    transform: translateX(10px); }
-
-  100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
-    transform: translateX(0); } }
-
-@-khtml-keyframes bounceInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(2000px);
-    -moz-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
-    transform: translateX(2000px); }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-30px);
-    -moz-transform: translateX(-30px);
-    -ms-transform: translateX(-30px);
-    -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
-    transform: translateX(-30px); }
-
-  80% {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
-    transform: translateX(10px); }
-
-  100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); } }
 
 @keyframes bounceInRight {
@@ -1462,7 +1029,6 @@ a {
     -moz-transform: translateX(2000px);
     -ms-transform: translateX(2000px);
     -o-transform: translateX(2000px);
-    -khtml-transform: translateX(2000px);
     transform: translateX(2000px); }
 
   60% {
@@ -1471,7 +1037,6 @@ a {
     -moz-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
     -o-transform: translateX(-30px);
-    -khtml-transform: translateX(-30px);
     transform: translateX(-30px); }
 
   80% {
@@ -1479,7 +1044,6 @@ a {
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-    -khtml-transform: translateX(10px);
     transform: translateX(10px); }
 
   100% {
@@ -1487,7 +1051,6 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    -khtml-transform: translateX(0);
     transform: translateX(0); } }
 
 .blur {
