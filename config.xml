@@ -2,14 +2,14 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.guimagames.vimorize"
-        versionCode="1.0.3" 
-        version   = "1.0.3">
+        versionCode="2.0.0" 
+        version   = "2.0.0">
     <name>Vimorize</name>
     <description>
         Jogo da Memória. 
     </description>
 
-    <author href="http://guimagames.wordpress.com" email="rafaelguima@outlook.com">
+    <author href="http://guimagames.cloudcontrolled.com" email="rafaelguima@outlook.com">
         Rafael Guimarães dos Santos
     </author>
 	
