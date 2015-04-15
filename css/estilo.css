@@ -417,22 +417,51 @@ a {
   left: 0;
   width: 200px;
   height: 140px;
-  /* Smartphones (portrait and landscape) ----------- */
-  /* iPads (portrait) ----------- */
+  /* Smartphones (portrait and landscape) ----------- 
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    width: 100px; height: 120px;
+  }
+  */
+  /* iPads (portrait) ----------- 
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+    width: 100px; height: 120px;
+  }
+  */
   /*width: 200px; height: 140px;*/
   -o-perspective: 800;
   -ms-perspective: 800;
   -moz-perspective: 800;
   -webkit-perspective: 800;
   perspective: 800; }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .card-wrapper {
-      width: 100px;
-      height: 120px; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+      width: 70px;
+      height: 90px; } }
+  @media only screen and (min-height: 568px) {
     .card-wrapper {
-      width: 100px;
+      width: 75px;
+      height: 140px; } }
+  @media only screen and (min-width: 568px) {
+    .card-wrapper {
+      width: 130px;
+      height: 90px; } }
+  @media only screen and (min-width: 600px) {
+    .card-wrapper {
+      width: 140px;
+      height: 140px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-wrapper {
+      width: 180px;
       height: 120px; } }
+  @media only screen and (min-width: 800px) {
+    .card-wrapper {
+      width: 190px;
+      height: 140px; } }
 
 .card {
   display: block;
